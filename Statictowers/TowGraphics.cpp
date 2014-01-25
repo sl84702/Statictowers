@@ -3,13 +3,6 @@
 //TowOneElement
 //функции получения параметров
  
-	/*
-	int GetTip();
-	int GetParametr();
-	double Getd1();
-	double Getd2();
-	double Getd3();
-	*/
 int TowOneElement::GetTip()
 {
 	return this->Tip;
@@ -200,15 +193,6 @@ void TowWorldGraphics::DrawWorldBegin()
 	glEnable(GL_DEPTH_TEST);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glPushMatrix();	
-
-	//для текста
-	//для текста
-	
-	//glRotatef(-15.0f,1.0f,0.0f,0.0f);
-	//glTranslatef(0.0f,0.0f,-400.0f);
-	//glRotatef(65.0f,1.0f,0.0f,0.0f);
-	//glPushMatrix();
-	//glRotatef(0.0f,0.0f,1.0f,0.0f);
 }
 void TowWorldGraphics::DrawWorldRotNTrans()
 {
@@ -233,7 +217,6 @@ void TowWorldGraphics::DrawWorldEnd()
 	glPopMatrix();
 	//Очищаем стек команд рисования
 	glutSwapBuffers();
-	//glFlush();
 }
 void TowWorldGraphics::DrawOneModel(int Model,double Cx,double Cy,double Cz,double Zoom)
 {
@@ -255,40 +238,10 @@ void TowWorldGraphics::ChangeSize(GLsizei w, GLsizei h)
 	//Обновляем систему координат
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	/*if(w <= h)
-		glOrtho(-nRange,nRange,-nRange*h/w,nRange*h/w,-nRange,nRange);
-	else
-        glOrtho(-nRange*w/h,nRange*w/h,-nRange,nRange,-nRange,nRange);*/
-	//Генерируем перспективную проекцию
+
 	gluPerspective(30.0f, fAspect, 300.0, 800.0);
 	glMatrixMode(GL_MODELVIEW);
-	//glLoadIdentity();
-
-	//////
-	//по nRange в каждую сторону
-	/*GLfloat nRange = 100.0f;
-	//предотвращает делении на нуль
-	if(h == 0)
-		h=1;
-	if(w == 0)
-		w=1;
-	//Устанавливаем поле просмотра по размерам окна
-	glViewport(0,0,w,h);
-	//Обновляет стек матрицы проектирования
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	//Устанавливаем объем отсечения с помощью отсекающих плоскостей, как раньше
-	if(w <= h)
-		glOrtho(-nRange,nRange,-nRange*h/w,nRange*h/w,-nRange,nRange);
-	else
-        glOrtho(-nRange*w/h,nRange*w/h,-nRange,nRange,-nRange,nRange);
 	
-	GLfloat fAspect;
-	fAspect = (GLfloat)w/(GLfloat)h;
-	//gluPerspective(60.0f, fAspect, 100.0, 1100.0);
-	//Обновляется стек матриц проекци модели
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();*/
 }
 //функция начальных настроек
 void TowWorldGraphics::SetupRC(void)
@@ -299,9 +252,7 @@ void TowWorldGraphics::SetupRC(void)
 	glColor3f(0.0f, 1.0f, 0.0f);
 	//Цвет модели затенения выбирается неструктурированым
 	glShadeModel(GL_FLAT);
-	//Многоугольники с обходом по часовой стрелке считаются направленными вперед
-	//поведение изменено на обратное, поскольку мы используем вееры треугольников
-	//glFrontFace(GL_CW);
+
 }
 
 int TowWorldGraphics:: GetH()
@@ -418,18 +369,6 @@ void TowWorldGraphics::LoadModels()
 	this->Models.push_back(TowOneGraphics("Pack_of_New/LtS.txt"));//Y
 	this->Models.push_back(TowOneGraphics("Pack_of_New/LtE.txt"));//Y
 	this->Models.push_back(TowOneGraphics("Pack_of_New/LtBar.txt"));//Y
-	/*this->Models.push_back(TowOneGraphics("Pack_of_New/Missle.txt"));	
-	//первая фракция
-	this->Models.push_back(TowOneGraphics("Castle.txt"));
-	this->Models.push_back(TowOneGraphics("Tower.txt"));
-	this->Models.push_back(TowOneGraphics("Cannon.txt"));
-	this->Models.push_back(TowOneGraphics("Mineral.txt"));
-	//вторая фракция
-	this->Models.push_back(TowOneGraphics("Mine.txt"));
-	this->Models.push_back(TowOneGraphics("Land.txt"));
-	this->Models.push_back(TowOneGraphics("ZoneTower.txt"));
-	this->Models.push_back(TowOneGraphics("Pack_of_New/Castle_Blue_Build.txt"));
-	*/
 }
 //конструктор и деструктор
 TowWorldGraphics::TowWorldGraphics()

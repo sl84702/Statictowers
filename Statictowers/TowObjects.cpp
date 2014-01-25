@@ -1171,7 +1171,6 @@ void TowWorld::DrawObjects()
 			}
 			for(int j = 0; j < this->Fractions[i].GetTowerSize();j++)
 			{
-				//----=+++
 				if(this->Fractions[i].GetTowerBuilt(j) == 1){
 					switch(this->Fractions[i].GetTowerTip(j))
 					{
@@ -1213,11 +1212,9 @@ void TowWorld::DrawObjects()
 						break;
 					}
 				}
-				//---=++
 			}
 		}
 	}
-	//this->WorldGraphics1.DrawOneModel(10,-76.0,0.0,-76.0,8.0);
 }
 //--------------------------------------------------------------
 void TowWorld::DrawCountMinerals(int Count)
@@ -1339,7 +1336,6 @@ void TowWorld::DrawSmallMap()
 			this->WorldGraphics1.DrawOneModel(Numeral,30.00+i*4.0,90.0 - j*4.0,-362.0,1.0);
 			Numeral = this->Map[i][j]+70;
 			this->WorldGraphics1.DrawOneModel(Numeral,30.00+i*4.0,0.0 - j*4.0,-362.0,1.0);
-			//this->WorldGraphics1.DrawOneModel(Numeral,-87.00,46.0,-362.0,1.0);
 		}
 	}
 }
@@ -1726,14 +1722,8 @@ void TowWorld::DrawAll()
 			this->DrawLose();
 		}
 	}
-	//this->DrawSmallMap(); 
 	this->WorldGraphics1.DrawWorldRotNTrans();
-	//this->WorldGraphics1.DrawWorld();
-	//this->WorldGraphics1.DrawWorldBegin();
-	//this->DrawBuilding(0,1);
-	//this->WorldGraphics1.DrawWorldEnd();
 	this->DrawObjects();
-	//this->MakeMap0();
 	if(this->ActionType == 1 )
 	{
 		if(this->BuildingTower == 1 || this->BuildingTower == 3)
@@ -1745,7 +1735,6 @@ void TowWorld::DrawAll()
 	}
 	this->DrawCountMinerals(this->Fractions[0].GetMinerals());
 	this->DrawMoneyAllert(); 
-	//this->DrawCountMinerals(98271);
 	this->WorldGraphics1.DrawWorldEnd();
 }
 void TowWorld::WChangeSize(GLsizei w, GLsizei h)
@@ -1784,15 +1773,6 @@ TowWorld::TowWorld()
 	this->ActionType = 0;
 	this->BuildingTower = 1;
 	
-	/*this->Missles.push_back(TowMissle(7.0, 1.4, 11.0, 10, 0.007,7,11));
-	this->Missles.push_back(TowMissle(1.0, 1.4, 5.0, 10, 0.007,7,11));
-	this->Missles.push_back(TowMissle(17.0, 1.4, 3.0, 10, 0.007,7,11));
-	if(this->Fractions[1].IsTowerInRad(7,11,12.0)){
-		int targ=this->Fractions[1].FindTowerInRad(7,11,12.0);
-		this->Missles[0].SetTarget(targ / 100,targ % 100);
-		this->Missles[1].SetTarget(targ / 100,targ % 100);
-		this->Missles[2].SetTarget(targ / 100,targ % 100);
-	}*/
 }
 TowWorld::~TowWorld()
 {

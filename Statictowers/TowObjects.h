@@ -1,6 +1,6 @@
 #ifndef TOWOBJECTS
 #include <stdio.h>
-#include <stdlib.h>     /* srand, rand */
+#include <stdlib.h>     
 #include <time.h>
 #include <math.h>
 #include <iostream>

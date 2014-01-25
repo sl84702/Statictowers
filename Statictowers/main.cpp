@@ -25,7 +25,6 @@ void MouseFunction(int button,int state,int x,int y)
 void main()
 {
 	srand(time(NULL));
-	//glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 	glutCreateWindow("Towers");
 	glutDisplayFunc(Draw);
@@ -34,5 +33,4 @@ void main()
 	glutMouseFunc(MouseFunction);
 	World1.WSetupRC();
 	glutMainLoop();
-	//delete (World1);
 }

@@ -1,17 +1,46 @@
-﻿Построение начато 25.01.2014 20:33:17.
-Проект "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 26.01.2014 0:52:29.
+Проект "C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Statictowers\Statictowers.vcxproj" в узле 2 (целевые объекты build).
 InitializeBuildStatus:
   Создание "Release\Statictowers.unsuccessfulbuild", так как было задано "AlwaysCreate".
 ClCompile:
-  Для всех выходных данных обновления не требуется.
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TowObjects.cpp
+  TowObjects.cpp
+TowObjects.cpp(482): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(490): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(503): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(512): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(527): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(535): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(556): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(572): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(897): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(915): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(934): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1093): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1097): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1101): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1105): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1109): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1113): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1553): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1558): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1574): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1580): warning C4018: <: несоответствие типов со знаком и без знака
+TowObjects.cpp(1589): warning C4018: <: несоответствие типов со знаком и без знака
 Link:
-  Для всех выходных данных обновления не требуется.
-  Statictowers.vcxproj -> E:\forlesson_forsend\s2\Statictowers\Release\Statictowers.exe
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Release\Statictowers.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Statictowers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Release\Statictowers.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Release\Statictowers.lib" /MACHINE:X86 Release\main.obj
+  Release\TowGraphics.obj
+  Release\TowObjects.obj
+  Создание кода
+  Создание кода завершено
+  Statictowers.vcxproj -> C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Release\Statictowers.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Release\Statictowers.exe;#1" /manifest Release\Statictowers.exe.intermediate.manifest
 FinalizeBuildStatus:
   Файл "Release\Statictowers.unsuccessfulbuild" удаляется.
   Обращение к "Release\Statictowers.lastbuildstate".
-Построение проекта "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" завершено (целевые объекты build).
+Построение проекта "C:\Documents and Settings\Oleg\Рабочий стол\111\Statictowers\Statictowers\Statictowers.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.74
+Затраченное время: 00:00:03.26
