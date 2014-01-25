@@ -1,0 +1,17 @@
+﻿Построение начато 25.01.2014 20:33:17.
+Проект "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" в узле 2 (целевые объекты build).
+InitializeBuildStatus:
+  Создание "Release\Statictowers.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  Для всех выходных данных обновления не требуется.
+Link:
+  Для всех выходных данных обновления не требуется.
+  Statictowers.vcxproj -> E:\forlesson_forsend\s2\Statictowers\Release\Statictowers.exe
+FinalizeBuildStatus:
+  Файл "Release\Statictowers.unsuccessfulbuild" удаляется.
+  Обращение к "Release\Statictowers.lastbuildstate".
+Построение проекта "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.74

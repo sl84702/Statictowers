@@ -1,0 +1,55 @@
+﻿Построение начато 25.01.2014 20:33:27.
+Проект "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" в узле 2 (целевые объекты build).
+InitializeBuildStatus:
+  Создание "Debug\Statictowers.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp TowGraphics.cpp TowObjects.cpp
+  TowObjects.cpp
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(482): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(490): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(503): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(512): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(527): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(535): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(556): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(572): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(897): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(915): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(934): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1093): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1097): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1101): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1105): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1109): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1113): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1557): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1562): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1578): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1584): warning C4018: <: несоответствие типов со знаком и без знака
+e:\forlesson_forsend\s2\statictowers\statictowers\towobjects.cpp(1593): warning C4018: <: несоответствие типов со знаком и без знака
+  TowGraphics.cpp
+e:\forlesson_forsend\s2\statictowers\statictowers\towgraphics.cpp(110): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+  Создание кода...
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Statictowers.exe.embed.manifest.res" Debug\Statictowers_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\forlesson_forsend\s2\Statictowers\Debug\Statictowers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Statictowers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\forlesson_forsend\s2\Statictowers\Debug\Statictowers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\forlesson_forsend\s2\Statictowers\Debug\Statictowers.lib" /MACHINE:X86 Debug\Statictowers.exe.embed.manifest.res
+  Debug\main.obj
+  Debug\TowGraphics.obj
+  Debug\TowObjects.obj
+  LINK : не найден или не выполнена сборка E:\forlesson_forsend\s2\Statictowers\Debug\Statictowers.exe при последней инкрементной компоновке; выполняется полная компоновка
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Statictowers.exe.embed.manifest" /manifest Debug\Statictowers.exe.intermediate.manifest
+  Для всех выходных данных обновления не требуется.
+LinkEmbedManifest:
+  Для всех выходных данных обновления не требуется.
+  Statictowers.vcxproj -> E:\forlesson_forsend\s2\Statictowers\Debug\Statictowers.exe
+FinalizeBuildStatus:
+  Файл "Debug\Statictowers.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\Statictowers.lastbuildstate".
+Построение проекта "E:\forlesson_forsend\s2\Statictowers\Statictowers\Statictowers.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:10.11
